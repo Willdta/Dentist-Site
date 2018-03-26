@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,4 +75,59 @@ p {
 }
 .fade {
   opacity: 1;
+}
+.why-us {
+  height: 100vh;
+}
+.why-us .experience,
+.why-us .results {
+  display: flex;
+  height: 50vh;
+}
+.why-us .experience .right,
+.why-us .results .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  background: #f00;
+}
+.why-us .experience .left,
+.why-us .results .left {
+  background: #ff0;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 200px;
+}
+.why-us .experience img,
+.why-us .results img {
+  height: 300px;
+}
+.why-us .service {
+  display: flex;
+  height: 50vh;
+}
+.why-us .service .right {
+  background: #ff0;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 200px;
+}
+.why-us .service .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  background: #f00;
+}
+.why-us .service img {
+  height: 300px;
 }

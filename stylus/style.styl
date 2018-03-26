@@ -6,13 +6,16 @@
  	box-sizing border-box
  	list-style none
  	text-decoration none
+ 	// margin 0 100px
+
+// Landing Page
 
 .home 
   background url('../images/testhome.svg')
   background-repeat no-repeat
   background-position center center
   background-size cover
-  height 100vh
+  height 120vh
   display flex
   justify-content center
   align-items center
@@ -38,6 +41,8 @@
 		font-family font
 		font-weight 300
 		font-size 20px
+		
+// Nav Menu
 
 .menu
 	position absolute
@@ -73,6 +78,61 @@
 			font-family font
 			font-weight 300
 			color black
+
+// Menu Toggle
 			
 .fade
 	opacity 1
+
+// Why Us Section
+
+.why-us
+	height 100vh
+
+	.experience, .results
+		display flex
+		height 50vh
+
+		.right
+			display flex
+			justify-content center
+			align-items center
+			width 30vw
+			background red
+			
+		.left
+			background yellow
+			width 70vw
+			display flex
+			justify-content center
+			align-items center
+			flex-direction column
+			text-align center
+			padding 0 200px
+			
+		img
+			height 300px
+			
+	.service
+		display flex
+		height 50vh
+		
+		.right
+			background yellow
+			width 70vw
+			display flex
+			justify-content center
+			align-items center
+			flex-direction column
+			text-align center
+			padding 0 200px
+			
+		.left
+			display flex
+			justify-content center
+			align-items center
+			width 30vw
+			background red
+	
+		img
+			height 300px
