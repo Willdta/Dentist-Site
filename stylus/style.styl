@@ -88,27 +88,74 @@
 
 .why-us
 	height 100vh
+	position relative
+
+	.title
+		color grey
+		font-family font
+		font-size 60px
+		margin-top 250px
+		font-weight 300
+		// background red
+		display inline-block
+		position relative
+		left 50%
+		transform translateX(-50%)
+
+	.border-title
+		background gradient
+		height 1px
+		width 25%
+		margin-bottom 100px
 
 	.experience, .results
 		display flex
 		height 50vh
+		position relative
+		
+		.line
+			background gradient
+			height 1px
+			width 300px
+			position absolute
+			bottom 0
+			left 50%
+			transform translateX(-50%) rotate(28deg)
+		
+		h1
+			font-family font
+			color grey
+			font-weight 400
+			border-bottom 1px solid gradient
+			
+			.border
+				margin 15px 0
+				background gradient
+				height 1px
+				width 100%
+		
+		h5
+			font-family font
+			font-weight 300
+			color grey
+			line-height 1.8
 
 		.right
 			display flex
 			justify-content center
 			align-items center
-			width 30vw
-			background red
+			width 50vw
+			// background red
 			
 		.left
-			background yellow
-			width 70vw
+			// background yellow
+			width 50vw
 			display flex
 			justify-content center
 			align-items center
 			flex-direction column
 			text-align center
-			padding 0 200px
+			padding 0 150px
 			
 		img
 			height 300px
@@ -116,23 +163,51 @@
 	.service
 		display flex
 		height 50vh
+		position relative
+		
+		.line
+			background gradient
+			height 1px
+			width 300px
+			position absolute
+			bottom 0
+			left 50%
+			transform translateX(-50%) rotate(-28deg)
+		
+		h1
+			font-family font
+			color grey
+			font-weight 400
+			// background yellow
+			
+			.border
+				margin 15px 0
+				background gradient
+				height 1px
+				width 100%
+		
+		h5
+			font-family font
+			font-weight 300
+			color grey
+			line-height 1.8
 		
 		.right
-			background yellow
-			width 70vw
+			// background yellow
+			width 50vw
 			display flex
 			justify-content center
 			align-items center
 			flex-direction column
 			text-align center
-			padding 0 200px
+			padding 0 150px
 			
 		.left
 			display flex
 			justify-content center
 			align-items center
-			width 30vw
-			background red
+			width 50vw
+			// background red
 	
 		img
 			height 300px
