@@ -7,14 +7,13 @@
   text-decoration: none;
 }
 .home {
-  background: url("../images/testhome.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url("../images/testhome.svg") no-repeat center center;
   background-size: cover;
-  height: 120vh;
+  height: 115vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10%;
 }
 .home .vertical {
   margin-right: 25px;
