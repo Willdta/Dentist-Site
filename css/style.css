@@ -207,7 +207,6 @@ p {
   background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   background-size: cover;
   height: 250vh;
-  z-index: -1;
 }
 .staff img {
   overflow: hidden;
@@ -333,8 +332,6 @@ p {
 }
 .contact {
   margin-top: -400px;
-  height: 50vh;
-  z-index: 100;
 }
 .contact h1 {
   color: #fff;
@@ -369,7 +366,7 @@ p {
   position: relative;
 }
 .contact .form-bg form input {
-  height: 30%;
+  height: 150px;
   border: none;
 }
 .contact .form-bg form input::placeholder {
@@ -386,7 +383,7 @@ p {
 .contact .form-bg form button {
   position: absolute;
   right: 20px;
-  bottom: 20px;
+  bottom: 20%;
   height: 50px;
   width: 50px;
   background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -398,4 +395,54 @@ p {
 }
 .contact .form-bg form button img {
   height: 60%;
+}
+.info {
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  height: 60vh;
+  margin-top: -50px;
+  z-index: 10000;
+  position: relative;
+}
+.info h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+.info .hours {
+  display: flex;
+}
+.info .hours .time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 33vw;
+  position: relative;
+}
+.info .hours .time h3 {
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+.info .hours .time h5 {
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  margin-top: 40px;
+}
+.info .hours .time h5 span {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 20px;
+}
+.info .hours .time .line {
+  height: 100px;
+  width: 1px;
+  background: #fff;
+  position: absolute;
+  right: 0;
 }

@@ -215,7 +215,7 @@
 	background gradient
 	background-size cover
 	height 250vh
-	z-index -1
+	// z-index -1
 	// width 100vw
 
 	img
@@ -346,9 +346,9 @@
 
 .contact
 	margin-top -400px
-	height 50vh
+	// height 50vh
 	// background pink
-	z-index 100
+	// z-index 100
 	
 	h1
 		color white
@@ -377,6 +377,7 @@
 		left 50%
 		transform translateX(-50%)
 		box-shadow 2px 4px 4px rgba(0, 0, 0, .1)
+		// z-index -200
 		
 		form
 			// background red
@@ -390,8 +391,9 @@
 			// margin-bottom 100px
 			
 			input
-				height 30%
+				height 150px
 				border none
+				// background pink
 				
 			input::placeholder
 				font-size 20px
@@ -407,7 +409,7 @@
 			button
 				position absolute
 				right 20px
-				bottom 20px
+				bottom 20%
 				height 50px
 				width 50px
 				background gradient
@@ -419,3 +421,56 @@
 				
 				img
 					height 60%
+
+.info
+	background gradient
+	height 60vh
+	margin-top - 50px
+	z-index 10000
+	position relative
+	// display flex
+		
+	h1
+		font-family font
+		font-weight 400
+		color white
+		position absolute
+		top 30px
+		left 100px
+
+	.hours
+		display flex
+		// flex-direction column
+		
+		.time
+			display flex
+			flex-direction column
+			justify-content center
+			align-items center
+			height 60vh
+			width 33vw
+			// background red
+			position relative
+			
+			h3
+				color white
+				font-family font
+				font-weight 400
+				
+			h5
+				color white
+				font-family font
+				font-weight 300
+				margin-top 40px
+				
+				span
+					font-weight 600
+					font-size 20px
+					margin 0 20px
+			
+			.line
+				height 100px
+				width 1px
+				background white
+				position absolute
+				right 0
