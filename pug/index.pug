@@ -87,32 +87,46 @@ body
 
 				h5  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores tenetur nulla, facere molestiae! Nisi beatae tenetur ipsa porro adipisci praesentium, rerum soluta error eos ab repellendus quisquam aut omnis quos.
 				
-.staff
-	//- img(src="./images/staffbg2.svg", alt="")
-	.staff-info
-		h1 Our Staff
-		.staff-line
+	.staff
+		//- img(src="./images/staffbg2.svg", alt="")
+		.staff-info
+			h1 Our Staff
+			.staff-line
 
-		.picture
-			.picture-info
-				img(src="./images/staff-arrow.svg", alt="")
+			.picture
+				.picture-info
+					img(src="./images/staff-arrow.svg", alt="")
 
-		.staff-title
-			h2.title Gabriel Pozo
-			h5 Head Dentist
-				.line
+			.staff-title
+				h2.title Gabriel Pozo
+				h5 Head Dentist
+					.line
 
-		//- Second Staff Section
+			//- Second Staff Section
 
-		.staff-line-2
+			.staff-line-2
 
-		.picture
-			.picture-info
-				img(src="./images/staff-arrow.svg", alt="")
+			.picture
+				.picture-info
+					img(src="./images/staff-arrow.svg", alt="")
 
-		.staff-title-2
-			h2.title Katrina Misik
-			h5 Head Hygenist
-				.line
+			.staff-title-2
+				h2.title Katrina Misik
+				h5 Head Hygenist
+					.line
+
+	.contact
+		h1 Contact
+			.line
+
+		.form-bg
+			form(action="POST")
+				input(type="text" placeholder="Name")
+				input(type="text" placeholder="Email")
+				input(type="text" placeholder="Question")
+				button
+					img(src="./images/check.svg", alt="")
+
+
 
 	script(src="./js/main.js")

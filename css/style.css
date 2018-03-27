@@ -204,9 +204,10 @@ p {
 }
 .staff {
   position: relative;
-  background: url("../images/staffbg2.svg") no-repeat;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   background-size: cover;
   height: 250vh;
+  z-index: -1;
 }
 .staff img {
   overflow: hidden;
@@ -220,7 +221,7 @@ p {
   color: #fff;
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  margin-top: 500px;
+  margin-top: 200px;
   position: relative;
   left: 50%;
   display: inline-block;
@@ -329,4 +330,72 @@ p {
   height: 1px;
   width: 100%;
   background: #fff;
+}
+.contact {
+  margin-top: -400px;
+  height: 50vh;
+  z-index: 100;
+}
+.contact h1 {
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  left: 25%;
+}
+.contact h1 .line {
+  background: #fff;
+  width: 1px;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+}
+.contact .form-bg {
+  margin-top: 100px;
+  width: 50vw;
+  height: 80vh;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 2px 4px 4px rgba(0,0,0,0.1);
+}
+.contact .form-bg form {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  position: relative;
+}
+.contact .form-bg form input {
+  height: 30%;
+  border: none;
+}
+.contact .form-bg form input::placeholder {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  color: #b2b2b2;
+  text-align: center;
+}
+.contact .form-bg form input:focus {
+  border-bottom: 1px solid #add8e6;
+  outline: none;
+}
+.contact .form-bg form button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .form-bg form button img {
+  height: 60%;
 }

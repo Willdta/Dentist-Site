@@ -211,9 +211,11 @@
 			
 .staff 
 	position relative
-	background url('../images/staffbg2.svg') no-repeat
+	// background url('../images/staffbg2.svg') no-repeat
+	background gradient
 	background-size cover
 	height 250vh
+	z-index -1
 	// width 100vw
 
 	img
@@ -230,7 +232,7 @@
 			color white
 			font-family font
 			font-weight 400
-			margin-top 500px
+			margin-top 200px
 			position relative
 			// background black
 			left 50%
@@ -341,3 +343,79 @@
 					height 1px
 					width 100%
 					background white
+
+.contact
+	margin-top -400px
+	height 50vh
+	// background pink
+	z-index 100
+	
+	h1
+		color white
+		font-family font
+		font-weight 400
+		display inline-block
+		position relative
+		left 25%
+		
+		.line
+			background white
+			width 1px
+			height 100px
+			position relative
+			left 50%
+			transform translateX(-50%)
+			margin-top 50px
+			
+	.form-bg
+		margin-top 100px
+		// margin-bottom 100px
+		// background red
+		width 50vw
+		height 80vh
+		position relative
+		left 50%
+		transform translateX(-50%)
+		box-shadow 2px 4px 4px rgba(0, 0, 0, .1)
+		
+		form
+			// background red
+			// height 70vh
+			// width 65vw
+			display flex
+			flex-direction column
+			height 80vh
+			// justify-content center
+			position relative
+			// margin-bottom 100px
+			
+			input
+				height 30%
+				border none
+				
+			input::placeholder
+				font-size 20px
+				font-family font
+				font-weight 300
+				color grey
+				text-align center
+				
+			input:focus
+				border-bottom 1px solid lightblue
+				outline none
+				
+			button
+				position absolute
+				right 20px
+				bottom 20px
+				height 50px
+				width 50px
+				background gradient
+				border-radius 50%
+				border none
+				display flex
+				justify-content center
+				align-items center
+				
+				img
+					height 60%
